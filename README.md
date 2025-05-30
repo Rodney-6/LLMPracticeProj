@@ -1,7 +1,6 @@
-# LLMPracticeProj
+# Learning_ML
 
-This will be my first attempt to apply some of the new ML and AI skills I am practicing.
-The goal of project is to create a machine that can summarize scientific articles.
-I would ultimately like it for it to be an interactive model. 
+I'll be using this to document my progress in learning ML and AI tools.
+the goal is to gain new skills and make a career pivot to a ML/AI engineer
 
-Here we go!!!
+Thanks for stopping by.
