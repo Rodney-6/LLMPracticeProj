@@ -1,0 +1,31 @@
+# Python virtual environments
+venv/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+eggs/
+*.egg-info/
+.eggs/
+
+# Editors
+.vscode/ # VS Code settings, if you want to ignore
+.idea/   # PyCharm/IntelliJ settings
+
+# Operating System files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
