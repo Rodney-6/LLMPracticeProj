@@ -67,3 +67,28 @@ fig.show()
 #We are itnerested in charges and there seems to be a correlation
 #let's loook at smoker data:
 medical_df.smoker.value_counts()
+px.histogram(medical_df, x='smoker', color='sex', title='Smoker')
+
+
+#haven't looked at age as it relates to charges yet and that could intuitievly be very interesting
+fig = px.scatter(medical_df, 
+                 x='age', 
+                 y='charges', 
+                 color='smoker', 
+                 opacity=0.8, 
+                 hover_data=['sex'], 
+                 title='Age vs. Charges')
+fig.update_traces(marker_size=5)
+fig.show()
+
+#now check BMI against the charges
+fig = px.scatter(medical_df, 
+                 x='bmi',
+                 y='charges', 
+                 color='smoker', 
+                 opacity=0.8, 
+                 hover_data=['sex'], 
+                 title='BMI vs. Charges')
+fig.update_traces(marker_size=5)
+fig.show()
+
