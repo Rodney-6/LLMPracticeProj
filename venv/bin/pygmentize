@@ -1,4 +1,4 @@
-#!/root/Coursera/MachineLearning/venv/bin/python
+#!/home/the_rodney/Coursera/MachineLearning/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
